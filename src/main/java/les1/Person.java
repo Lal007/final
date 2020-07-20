@@ -1,14 +1,14 @@
 package les1;
 
 public class Person {
-    private String firsName;
-    private String lastName;
-    private String middleName;
-    private String country;
-    private String address;
-    private String phone;
-    private int age;
-    private String gender;
+    private final String firsName;
+    private final String lastName;
+    private final String middleName;
+    private final String country;
+    private final String address;
+    private final String phone;
+    private final int age;
+    private final String gender;
 
     private Person(PersonBuilder personBuilder) {
         this.firsName = personBuilder.firstName;
